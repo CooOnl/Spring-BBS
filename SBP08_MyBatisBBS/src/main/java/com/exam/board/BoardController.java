@@ -15,7 +15,7 @@ public class BoardController {
 	@Autowired
 		private BoardDao boardDao;
 	
-		//메인페이지
+		//메인페이지입니다
 		@RequestMapping("/")
 		public String root() throws Exception {
 			
